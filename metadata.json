@@ -1,0 +1,28 @@
+{
+    "KPlugin": {
+        "Id": "com.vibe.launcher",
+        "Name": "Vibe Launcher",
+        "Description": "A floating, keyboard-driven search launcher for Plasma.",
+        "Category": "Application Launchers",
+        "EnabledByDefault": true,
+        "FormFactors": [
+            "desktop",
+            "horizontal",
+            "vertical"
+        ],
+        "Icon": "search",
+        "Version": "1.0.0",
+        "License": "GPL-3.0-or-later",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Authors": [
+            {
+                "Name": "Vibe"
+            }
+        ]
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

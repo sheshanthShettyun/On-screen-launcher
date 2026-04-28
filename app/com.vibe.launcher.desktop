@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Vibe Launcher
+Comment=Floating desktop launcher
+Exec=/home/sriyaan/.local/share/plasma/plasmoids/com.vibe.launcher/app/vibe_launcher.py
+Icon=search
+Terminal=false
+Categories=Utility;Application;
+StartupNotify=false
