@@ -2,6 +2,8 @@
 
 Vibe Launcher is a floating, keyboard-driven launcher for KDE Plasma. It opens as a centered popup, lets you search apps, commands, and settings, and can also be launched as a standalone window.
 
+![Vibe Launcher preview](image.png)
+
 ## What It Looks Like
 
 The launcher appears as a dark floating panel in the center of the screen with:
