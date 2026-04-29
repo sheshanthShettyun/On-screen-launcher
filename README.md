@@ -2,13 +2,13 @@
 
 Vibe Launcher is a floating, keyboard-driven launcher for KDE Plasma. It opens as a centered popup, lets you search apps, commands, and settings, and can also be launched as a standalone window.
 
-![Vibe Launcher preview](image.png)
-
 ## What It Looks Like
 
 The launcher appears as a dark floating panel in the center of the screen with:
 
 - a search bar at the top
+- a media player card with transport controls
+- system volume controls inside the media card
 - recent apps in a row
 - recommended apps below
 - keyboard hints in the footer
@@ -86,9 +86,14 @@ Replace `your-user` with your actual username.
 - `Enter` opens the selected result
 - searching updates results live
 - recent usage is stored and reused for suggestions
+- the standalone launcher can show current MPRIS media playback
+- media controls support previous, play/pause, and next
+- volume controls support default output volume up and down
 
 ## Notes
 
 - The widget uses Plasma's runner infrastructure for app, settings, calculator, and unit conversion results.
 - The standalone app uses local desktop-file scanning and its own history cache.
+- media playback info comes from MPRIS over D-Bus in the standalone launcher.
+- volume controls use `pactl` when available, with `pamixer` and `amixer` fallback support.
 - The desktop entry currently uses a user-specific absolute path, so update it if you install the standalone app somewhere else.
